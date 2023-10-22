@@ -1,3 +1,4 @@
+#!/bin/bash
 swaylock \
 	--image "$HOME/Pictures/background.jpg" \
 	--effect-blur 7x5 \
