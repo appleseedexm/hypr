@@ -1,0 +1,22 @@
+[pyprland]
+plugins = ["menubar", "scratchpads", "fetch_client_menu", "layout_center"]
+
+[menubar]
+command = "waybar"
+monitors = ["DP-1", "DP-2"]
+
+[scratchpads.term]
+animation = ""
+command = "foot -T footfloat -F"
+class = "foot"
+#size = "75% 60%"
+#max_size = "1920px 100%"
+margin = 50
+
+[layout_center]
+margin = 60
+offset = [0, 30]
+next = "movefocus r"
+prev = "movefocus l"
+next2 = "movefocus d"
+prev2 = "movefocus u"
