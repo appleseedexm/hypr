@@ -6,12 +6,15 @@ command = "waybar"
 monitors = ["DP-1", "DP-2"]
 
 [scratchpads.term]
-animation = ""
-command = "foot -T footfloat -F"
+animation = "fromBottom"
+command = "foot -T footfloat"
 class = "foot"
-#size = "75% 60%"
+size = "80% 75%"
 #max_size = "1920px 100%"
-margin = 50
+margin = 0
+pinned = true
+unfocus = "hide"
+hysteresis = 0
 
 [layout_center]
 margin = 60
