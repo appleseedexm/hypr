@@ -1,5 +1,5 @@
 [pyprland]
-plugins = ["menubar", "scratchpads", "fetch_client_menu", "layout_center"]
+plugins = ["menubar", "scratchpads", "fetch_client_menu"]
 
 [menubar]
 command = "waybar"
